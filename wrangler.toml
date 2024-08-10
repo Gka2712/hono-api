@@ -1,0 +1,23 @@
+name = "hono-application"
+compatibility_date = "2024-07-28"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+ [[kv_namespaces]]
+ binding = "MY_KV"
+ id = "9a3d8059507f4a61a89352e611a3b307"
+[[kv_namespaces]]
+binding="MY_KV2"
+id="90b3717c71a54a6eaa7e563966c83c80"
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
